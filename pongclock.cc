@@ -388,7 +388,7 @@ int main(int argc, char *argv[])
 
   oldHour = std::to_string(now->tm_hour);
   if( oldHour.length() == 1) oldHour.insert(0, 1, '0');
-  oldMin = std::to_string(now->tm_sec); //TODO
+  oldMin = std::to_string(now->tm_min); 
   if( oldMin.length() == 1) oldMin.insert(0,1,'0');
   
   
@@ -434,7 +434,7 @@ int main(int argc, char *argv[])
 
 	std::string strHour = std::to_string(now->tm_hour);
 	if( strHour.length() == 1) strHour.insert(0, 1, '0');
-	std::string strMinute = std::to_string(now->tm_sec);
+	std::string strMinute = std::to_string(now->tm_min);
 	if( strMinute.length() == 1) strMinute.insert(0,1,'0');
 
 
