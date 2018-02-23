@@ -349,7 +349,7 @@ int main(int argc, char *argv[])
 
   srand((unsigned int)time(NULL));
 
-  std::string font_type = "./font.bdf";
+  std::string font_type = "./pongnumberfont.bdf";
   rgb_matrix::Font font;
   if (!font.LoadFont(font_type.c_str())) 
   {
