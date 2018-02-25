@@ -5,7 +5,7 @@ With a custom font to match the orignal Pong game
 
 ![Pong Clock](pongclock.gif)
 
-The Seonds are indicating by a sweeping progress bar to stop any flashing and still give you an indication of how far the seconds are.
+The Seconds are indicating by a sweeping progress bar to stop any flashing and still give you an indication of how far the seconds are.
 
 ![With a sweeping second progress bar that slowly changes colour over the day](secondsweep.gif)
 
