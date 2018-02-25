@@ -1,6 +1,7 @@
 pong clock made using the adafruit controller and a 32x32 rgb led matrix
 
-Auto-Playing pong clock where the score is the current time
+Auto-Playing pong clock where the score is the current time.
+With a custom font to match the orignal Pong game
 
 ![Pong Clock](pongclock.gif)
 
