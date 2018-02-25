@@ -442,6 +442,8 @@ int main(int argc, char *argv[])
 	       changeInHourDue = true;
 	if (oldMin != strMinute )
 		changeInMinuteDue = true;
+	if( changeInHourDue ) // if the change in hour is due, don't also do the minute
+		changeInMinuteDue = false; 
 
 	// hour
         if ( changeInHourDue)
